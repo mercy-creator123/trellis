@@ -1,11 +1,9 @@
 /target
 **/target
-.env
 contracts/trellis_core/.env
 *.log
 
 # IDE settings — user-specific, should not be tracked
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -24,3 +22,8 @@ frontend/.env.*.local
 # Cargo.lock is tracked for the CLI binary crate to ensure reproducible builds.
 # Unlike libraries, binary crates should commit their lockfile so that every
 # developer and CI runner resolves identical dependency versions.
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
