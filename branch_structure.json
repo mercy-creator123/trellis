@@ -1,0 +1,18 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "feat/issue-469-native-network-passphrase-verification-against",
+    "master",
+    "origin"
+  ],
+  "parent": {
+    "feat/issue-469-native-network-passphrase-verification-against": "master",
+    "master": null,
+    "origin": "master"
+  },
+  "order": [
+    "master",
+    "feat/issue-469-native-network-passphrase-verification-against",
+    "origin"
+  ]
+}
